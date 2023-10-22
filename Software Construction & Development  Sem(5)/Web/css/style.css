@@ -1,0 +1,740 @@
+@font-face
+{
+    font-family: MontserratRegular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-family: MontserratSemi;
+    src: url(..//fonts/Montserrat/static/Montserrat-Light.ttf);
+    font-family: MontserratBold;
+    src: url(..//fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+h1, h2, h3, h4, h5, h6, span
+{
+    font-family: MontserratBold, sans serif;
+}
+p, li, a, ul
+{
+    font-family: MontserratRegular, sans-serif ;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main-container-div
+{
+    width: 1348px;
+    height: auto;
+    
+}
+
+/*              Home Page                */
+#home-main-div
+{
+    height: 649px;
+    background-image: url(../images/main-container-img.jpg);
+    background-position:top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+#home-main-div::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+
+/* Navbar */
+#navbar-nav
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(31, 30, 30, 0.40);
+}
+#logo-txt-div
+{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+#logo-txt-div h1
+{
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 12px;
+    word-spacing: 5px;
+    width: 280px;
+}
+#logo-txt-div h1:hover
+{
+    cursor: pointer;
+}
+#nav-icon-div
+{
+    width: 70%;
+    height: 100%;
+    float: right;
+    padding-left: 160px;
+}
+
+.nav-icon-a
+{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.nav-icon-a li
+{
+    list-style: none;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+.nav-icon-a li:hover
+{
+    color: crimson;
+    transition: .3s;
+}
+/* Navbar Ends */
+
+#home-main-txt-div
+{
+    width: 815px;
+    margin: 150px 0px 150px 200px;
+}
+#home-main-txt-div h1
+{
+    font-size: 4rem;
+    color: white;
+}
+#home-main-txt-div a
+{
+    float: right;
+    border: 2px solid crimson;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#home-main-txt-div a:hover
+{
+    background-color: crimson;
+    transition: .3s;
+}
+/*              Home Page End                */
+
+
+/*              Services page                  */
+#services-main-div
+{
+    height: 1098px;
+}
+#services-left-div
+{
+    float: left;
+    height: 500px;
+    width: 40%;
+    margin-top: 75px;
+}
+.services-left-items-div
+{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 90px;
+    box-shadow: 0 4px 8px 0 grey;
+}
+.services-left-items-div:hover
+{
+    background-color: crimson;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+.services-left-items-icon-div
+{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+.services-left-items-icon-div img
+{
+    border-radius: 40%;
+    width: 70px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.services-left-items-txt-div
+{
+    float: right;
+    width: 70%;
+}
+.services-left-items-txt-div h3
+{
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.services-left-items-txt-div p
+{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#services-right-div
+{
+    float: right;
+    height: 500px;
+    width: 60%;
+    margin-top: 75px;
+}
+#services-right-upperitem-div
+{
+    margin-top: 50px;
+    height: 300px;
+    width: 650px;
+    margin-left: 50px;
+}
+#services-right-upperitem-div h1
+{
+    word-spacing: 5px;
+    font-size: 50px;
+}
+#services-right-upperitem-div p
+{
+    line-height: 180%;
+}
+#services-right-loweritem-div
+{
+    width: 650px;
+    margin-left: 50px;
+    height: 100px;
+    margin-top: 20px;
+}
+#services-right-loweritem-div div
+{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+#services-right-loweritem-div div h3
+{
+    font-size: 50px;
+    padding-left: 80px;
+}
+#services-right-loweritem-div div p
+{
+    padding-left: 80px;
+}
+#gallery-container-div
+{
+    float: left;
+    width: 85%;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#gallery-left-content-div
+{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+#gallery-left-content-div h1
+{
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+#gallery-right-content-div
+{
+    width: 55%;
+    height: 100%;
+    float: right;
+}
+#gallery-right-content-div table
+{
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.gallery-4-img-container
+{
+    width: 33%;
+    height: 33%;
+}
+.gallery-4-images
+{
+    width: 160px;
+    margin-left: 12px;
+    height:80px;
+    margin-top: 5px;
+}
+.gallery-pic6-container
+{
+    width: 33%;
+    height: 100%;
+}
+.gallery-pic6-container img
+{
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 160px;
+    height: 285px;
+}
+.gallery-pic5-container
+{
+    width: 66%;
+    height: 33%;
+}
+.gallery-pic5-image
+{
+    width: 350px;
+    margin-left: 12px;
+    height:80px;
+    margin-top: 5px;
+}
+
+/*              Services page End                */
+
+
+/*                  Experience                */
+#exp-main-div
+{
+    height: 998px;
+    background-color: bisque;
+}
+#exp-main-div h1
+{
+    text-align: center;
+    padding-top: 80px;
+    word-spacing: 5px;
+    font-size: 50px;
+}
+#exp-left-div
+{
+    float: left;
+    height: 400px;
+    width: 38%;
+    margin-top: 50px;
+    border-right: 1px dotted black;
+}
+.exp-left-items-div
+{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.exp-left-items-div h3
+{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.exp-left-items-div p
+{
+    padding-top: 8px;
+    padding-left: 50px;
+}
+
+#exp-middle-div
+{
+    width: 7%;
+    float: left;
+    height: 400px;
+    margin-top: 50px;
+}
+.exp-middle-icon-div img
+{
+    width: 30px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 110px;
+}
+
+#exp-right-div
+{
+    float: right;
+    height: 400px;
+    width: 55%;
+    margin-top: 50px;
+}
+.exp-right-items-div
+{
+    width: 640px;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.exp-right-items-div h2
+{
+    padding-top: 5px;
+}
+.exp-right-items-div p
+{
+    padding-top: 5px;
+    line-height: 150%;
+}
+#video-container-div
+{
+    width: 1000px;
+    height: 330px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.video-content-div
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.video-content-div h2
+{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.video-content-div span
+{
+    color: crimson;
+    letter-spacing: 1px;
+    word-spacing: 9px;
+}
+
+.video-content-div p
+{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+.video-content-div video
+{
+    margin-top: 60px;
+    width: 430px;
+}
+
+/*              Experience End                    */
+
+
+/*              Education                     */
+    #edu-main-div
+    {
+        height: 649px;
+        background-image: url(../images/edu-main-img.jpg);
+        background-size: cover;
+        background-position:top center;
+    }
+
+    #edu-main-txt
+    {
+        text-align: center;
+        padding-top: 80px;
+        word-spacing: 5px;
+        font-size: 50px;
+        color: white;
+    }
+    #edu-item-block-div
+    {
+        width: 800px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 270px;
+    }
+    #edu-left-div
+    {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    .edu-left-items-div
+    {
+        width: 100%;
+        margin-bottom: 50px;
+        height: 25%;
+        border-radius: 50px 0px 0px 50px;
+        background-color: white;
+    }
+    .edu-left-items-div h2
+    {
+        padding-top: 35px;
+        padding-left: 60px;
+    }
+    .edu-left-items-div:hover
+    {
+        background-color: crimson;
+        color: white;
+        transition: .3s;
+    }
+    #edu-right-div
+    {
+        width: 70%;
+        height: 100%;
+        float: right;
+    }
+    .edu-right-items-div
+    {
+        width: 100%;
+        margin-bottom: 50px;
+        height: 25%;
+        border-radius: 0px 50px 50px 0px;
+    }
+    .edu-right-items-div h3
+    {
+        color: white;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .edu-right-items-div p
+    {
+        color: white;
+        line-height: 150%;
+        padding-left: 30px;
+    }
+
+/* Education End */
+
+               /* About Me                 */
+    #about-main-div
+    {
+        height: 1149px;
+    }
+    #about-main-txt
+    {
+        text-align: center;
+        padding-top: 80px;
+        word-spacing: 5px;
+        font-size: 50px;
+    }
+    #about-content-div
+    {
+        width: 900px;
+        height: 400px;
+        margin-left: 220px;
+        margin-top: 30px;
+    }
+    #about-content-left-div
+    {
+        width: 40%;
+        height: 100%;
+        position: relative;
+        float: left;
+    }
+    #about-content-img-div
+    {
+        position: absolute;
+        border: 7px solid crimson;
+        height: 80%;
+        width: 50%;
+        top: 50px;
+        z-index: 0;
+        margin-left: 30px;
+    }
+    #about-content-img-div img
+    {
+        width: 150%;
+        z-index: 1;
+        position: absolute;
+        top: -50px;
+        left: 30px;
+    }
+    #about-content-right-div
+    {
+        width: 60%;
+        float: right;
+        height: 100%;
+    }
+    #about-content-right-div h3
+    {
+        margin-top: 15px;
+    }
+    #about-content-right-div p
+    {
+        line-height: 180%;
+    }
+    .download-button
+    {
+        border: 2px solid crimson;
+        color: black;
+        letter-spacing: 2px;
+        text-decoration: none;
+        padding: 10px 30px;
+        font-size: 15px;
+        text-transform: uppercase;
+        float: left;
+        margin-top: 15px;
+    }
+    .download-button:hover
+    {
+        background-color: crimson;
+        transition: .3s;
+        color: white;
+    }
+    #map-div
+    {
+        float: left;
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+    }
+    #map-div h1
+    {
+        text-align: center;
+    }
+    #map-div div iframe
+    {
+        width: 850px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    
+               /* About Me End */
+
+
+/*               Contact Us         */
+
+#contact-main-div
+{
+    height: 649px;
+    background-image: linear-gradient(60deg, #000000 0%, #373f47 200%);
+    width: 100%;
+}
+#contact-main-txt
+{
+    text-align: center;
+    padding-top: 80px;
+    word-spacing: 5px;
+    font-size: 50px;
+    color: white;
+}
+#contact-content-div
+{
+    width: 80%;
+    height: 450px;
+    margin-left: 130px;
+    float: left;
+    margin-top: 10px;
+
+}
+#contact-left-div
+{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#contact-left-div h1
+{
+    padding-top: 100px;
+    font-size: 40px;
+    padding-left: 40px;
+    color: white;
+}
+#contact-left-div h2
+{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 40px;
+    color: white;
+}
+#contact-left-div p
+{
+    padding-top: 90px;
+    padding-left: 40px;
+    color: white;
+}
+
+#contact-right-div
+{
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+#contact-right-div h2
+{
+    padding-top: 100px;
+    padding-left: 40px;
+    color: white;
+}
+#contact-right-div p
+{
+    padding-left: 40px;
+    padding-top: 10px;
+    color: white;
+}
+#social-icon-content-div{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.social-icon-section-div
+{
+    width: 350px;
+    height: 50%;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+.social-icon
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.social-icon-item-div
+{
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+.social-icon-item-div:hover
+{
+    background-color: crimson;
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+}
+.social-icon-item-div  div img
+{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.social-icon-item-div  div h4
+{
+    float: left; 
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+
+/*                   ContactEnd                    */
+
